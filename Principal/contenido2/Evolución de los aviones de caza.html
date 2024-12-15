@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Evolución de los aviones de caza</title>
+    <link rel="stylesheet" href="evo.css">
+    <link rel="icon" type="image/JPG" sizes="32x32" href="icono favicon.jpg" >
+</head>
+<body>
+    <p><pre>
+        
+        click para 
+        reproducir
+          audio</pre>
+      </p>
+      <img src="reproducir.png" alt="Reproducir Audio" width="50" onclick="toggleAudio()" title="click para reproducir audio" style="margin-left: 5% ;">
+      <audio id="miAudio" src="cancion fondo.mp3" loop></audio><script>
+          function toggleAudio() {
+            const audio = document.getElementById('miAudio');
+            if (audio.paused) {
+              audio.play();
+            } else {
+              audio.pause();
+            }
+          }
+        </script>
+<h1>La evolución de las tecnologías hacia los cazas de 6º generación</h1>
+<p>Este concepto de generaciones de cazas será aplicado en este ensayo a los aviones de caza con motor a reacción, una breve introducción a las distintas generaciones de aeronaves permitirá dar contexto a la definición propuesta:</p>
+<p><span style="font-weight: bold;">1ra. Generación:</span> es la de los primeros cazas con motores a reacción, la aerodinámica comenzó con alas rectas y los más modernos de la época ya mostraban configuraciones en flecha, llegando algunos modelos a poder romper la barrera del sónido ejecutando picadas con ángulos superiores a los 60°, los comandos de vuelo a cable son paulatinamente reemplazados por comandos hidráulicos rudimentarios que exigen mayor fineza al pilotaje. En armamentos se muestran armas axiales de alto calibre, aparecen los primeros misiles infrarrojos y se pueden ver versiones con radares de telemetría. Las miras para lanzamiento de armas podían ser fijas y la más modernas denominadas móviles, poseían un giróscopo que ayudaba a predecir el punto a apuntar con alto número de gravedades en combate. Algunos representantes de esta generación pueden ser del Messerschmitt Me-262 o el Gloster Meteor, al North American F-86 Sabre, el MiG-19 y nuestro Pulqui II, entre otros.</p>
+<img src="1ra generacion.jpg" alt="Avión de primera gereación" style="height: 200px;margin-left: 45%;margin-right: 50%;">
+<p><span style="font-weight: bold;">2da. Generación:</span> se caracterizó por la capacidad supersónica, surgida de la integración de un estatorreactor a continuación de la turbina, estos ingenios producen un segundo quemado del aire expedido, dando un porcentaje de impulso adicional que, sumado a configuraciones aerodinámicas de alas en delta o planos de diedro negativo y perfiles aerodinámicos muy delgados, les permitía alcanzar velocidades supersónicas en vuelo recto y nivelado. Estas aeronaves se diseñaron con el objetivo de poder interceptar a los bombarderos estratégicos de gran altitud y su aviónica, si bien más moderna que la 1ra generación, estaba adaptada fundamentalmente al vuelo supersónico mediante el empleo de comandos electro-hidráulicos, orientadas a generar ayudas al pilotaje y sistemas que amortigüen el pasaje de subsónico a supersónico y viceversa. En su capacidad de combate, comienza a aparecer el concepto de interceptor todo tiempo, ya que podían operar y lanzar sus armas tanto en condiciones diurnas como nocturnas e incluso volar en condiciones meteorológicas marginales[1], es por ello que su aspecto más destacado es la presencia de radares de onda continua, que permitían el lanzamiento de misiles semiactivos[2] (R-530, Sky Flash, Sparrow, entre otros). Los primeros sistemas computarizados de vuelo ya son parte de esta generación, con inerciales, computadores de datos de aire y la aparición del Head Up Display, un dispositivo de asistencia al piloto que, sumado a los nuevos ingenios, permite mayor precisión en las navegaciones y en el lanzamiento de armas, donde los errores circulares promedio de los escuadrones de cazabombarderos (CEP) se reducen de 40 mrd a valores inferiores a 14 mrd, con lo cual el esfuerzo de guerra decrementa sus costos de manera significativa. Algunos representantes de esta generación pueden ser el Lockheed Martin F-104 Starfighter, la familia Dassault Mirage III, Convair F-106 Delta Dart, el McDonnell Douglas F-4 Phantom , el MiG-21 y otros modelos.</p>
+<img src="2da generacion.jpg" alt="Avión de segunda Generacón" style="height: 200px;margin-left: 45%;margin-right: 50%;">
+<p> <span style="font-weight: bold;">3ra. Generación:</span> Esta generación se caracteriza por incorporar saltos tecnológicos que dan origen al concepto de multirol[3] en las capacidades del grupo motopropulsor, permite alcanzar relaciones de peso-empuje superiores a 1[4], parte de esta capacidad se debe a los progresos en materiales compuestos que reducen el peso de las aeronaves y permiten llevar la resistencia de las células en el combate aéreo a valores del orden de 9 G’s (gravedades). El sistema computarizado avanzó en la simplificación de pilotaje y en la precisión de la navegación, con la aparición de inerciales laséricos integrados con información de posicionamiento satelital (GPS), una tecnología basada en capacidades espaciales que otorgan altos niveles de precisión tanto para la navegación como para el lanzamiento de armas, donde los radares de estado sólido, pulsados con Doppler, logran un efecto de mejora en las imágenes (sharpening[5]), permitiendo designar blancos por radar, siendo también posible hacerlo por video, láser, infrarrojo, en el último período con la estandarización del protocolo 1760[6], incluso cambiar las coordenadas GPS de los blancos preseleccionados en las denominadas bombas JDAM[7]. Los comandos eléctricos (Fly by Wire[8]), también fruto de los avances en computación, han permitido incluso el adecuado control de vuelo de aeronaves aerodinámicamente inestables, permitiendo una serie de maniobras hasta estos momentos poco compatibles con la aerodinámica tradicional, también han sido de amplia aplicación en la aviación comercial y general. Algunos representantes de esta generación son: el Lockheed Martin F-16 Fighting Falcon, el Boeing F-15 Eagle; el MiG-29 y el Dassault Mirage 2000.</p>
+<img src="3ra generación.jpg" alt="Avión de tercera generación" style="height: 200px;margin-left: 45%;margin-right: 50%;">
+<p> <span style="font-weight: bold;">4ta. generación:</span> esta generación se ha caracterizado por la mayor reversión de carga de trabajo en la cabina de vuelo, simplificando el pilotaje y poniendo el foco en el control situacional (situation awareness [SA] [9]). En esta generación la tecnologías de las comunicaciones son la que producen el salto principal, donde las plataformas aéreas trabajan como una red WAN entre todos los integrantes de la misión, completamente integrados con los aviones de apoyo, vigilancia y reconocimiento y como parte de un concepto de network centric warfare (NCW)[10], a través de la optimización de sistemas como el Data Link, permitiendo optimizar la interoperabilidad entre sistemas de iguales características y también la interacción con otros sistemas. Los avances en los sistemas moto-propulsores presentan las características de empuje vectorial, sistema que admite que las toberas de escape adquieran ángulos que permiten maniobras mucho más cerradas sin incrementar las gravedades requeridas de manera convencional. Los armamentos van hacia misiles Aire -Aire y Aire Superficie con mayor radio de acción, menor posibilidad de interferencia y capacidades de navegación autónoma. Finalmente, en estos aviones ya pueden encontrarse algoritmos avanzados de selección de armas en relación con los blancos y el empleo de contramedidas y contra-contra medidas electrónicas. Algunos representantes de esta generación son: el Gripen NG, el Dassault Rafale, Eurofigther Typhoon, el MiG-30 al 35 y el Sukhoi Su-27.</p>
+<img src="4ta generacion.jpg" alt="Avión de cuarta generación" style="height: 200px;margin-left: 45%;margin-right: 50%;">
+<p><span style="font-weight: bold;">5ta. Generación:</span> es la que domina en la actualidad, en ella se aprecian los máximos niveles de desarrollo de todas las tecnologías aeroespaciales previas, apenas un puñado de aeronaves son producidas solo por tres potencias (EE.UU., Rusia y China), esta generación sin bien conjuga la sublimación de todas las tecnologías presentadas en este ensayo, se puede afirmar que aún no ha madurado tecnológicamente como generación. El salto de esta generación vino de la mano de la furtividad al radar convencional y el empleo de armamentos en una bahía interior que se opera de manera imperceptible para evitar delatar su presencia y de la excelente capacidad de diseño e incremento de los grupos moto-propulsores, permitiendo hacer realidad algo aún no logrado de manera completa: el concepto de super-crucero. Su representante más sólido es el Lockheed Martin F-22 Raptor, el primero en entrar en servicio operacional. La contrapartida de este es el Lockheed Martin F-35 Lightning II, un modelo destinado a la venta internacional, con versiones de uso aeronaval y una de aterrizaje vertical, que ha presentado múltiples problemas tanto en el país del fabricante como en muchos de sus compradores internacionales. En el sitio https://www.defensenews.com/smr/hidden-troubles-f35 puede encontrarse una compilación bastante completa con referencia a este aspecto (Defences News, s.f.). Los otros miembros de este selecto grupo son mucho menos conocidos en sus detalles, pero respetan las características salientes de esta generación, ello son: el Shenyang J-35 (en desarrollo) y el Chengdu J-20 chinos y el Sukhoi Su-57 Felon ruso, estos dos últimos ya en servicio limitado.</p>
+<img src="5ta generación.jpg" alt="Aviónde quinta generación" style="height: 200px;margin-left: 45%;margin-right: 50%;">
+<p><span style="font-weight: bold;">Los cazas de la sexta generación</span> <br>
+
+
+    La quinta generación de cazas ha despertado en muchas potencias y organizaciones internacionales la posibilidad de producir un salto que de alguna manera pretendería dejar a la quinta generación como un mero pasaje entre la cuarta y la sexta, apareciendo una serie de requerimientos tecnológicos en diferentes estados de madurez, algunos ya presentes en cazas de quinta generación y otros en los cuales las tecnologías de base aún deben madurar desde la frontera del conocimiento en la cual se encuentran, por lo cual en algunos casos parecieran de ciencia ficción.
+    
+    Se han explorado requerimientos genéricos que involucran a la Unión Europea, la Fuerza Aérea de los EE.UU., el Reino Unido de Gran Bretaña, la República Popular China, así como algunos análisis de publicaciones especializadas, de donde surge un listado de capacidades o requerimientos generales, donde algunos de los detectados hasta el momento son: <br>
+    
+    1.      Volar de manera tripulada y/o no. <br>
+    
+    2.      Poseer capacidad de sigilo. <br>
+    
+    3.      Desarrollar velocidades hipersónicas y volar en el espacio cercano a la tierra. <br>
+    
+    4.      Mutar su forma en vuelo, pudiendo alcanzar amplios rangos de acción, desde emplear velocidad hipersónica a mantenerse en estación por largos períodos de tiempo, para ello empleará motores reajustables para velocidad o persistencia. <br>
+    
+    5.      Incorporar nuevas tecnologías de control de vuelo (fly-by-wireless, fly-by-optics, power-by-wire). <br>
+    
+    6.      Operar con armas de nueva generación. <br>
+    
+    7.      Controlar y comandar operaciones de guerra en enjambre. <br>
+    
+    8.      Volar en “súper-crucero”. <br>
+    
+    9.      Poseer elevados factores de supervivencia.</p>
+
+    <img src="6ta generacion.jpeg" alt="Avión de generación" style="height: 200px;margin-left: 45%;margin-right: 50%;">
+    <a href="../Introducción.html">Introducción</a>
+    <a href="../contenido1/Historia de los aviones de caza.html" style="text-align: center;margin-left: 35%;">
+      Historia de los aviones de caza</a>
+  <a href="../contenido3/Los aviones mas avanzados para combate de la actualidad.html" style="text-align: right;margin-left:29% ;">los aviones mas avanzados</a>
+  <a href="../../index.html"><img 
+      src="_Pngtree_blue_home_icon_or_button_15418766-removebg-preview.png" 
+      alt="icono volver" 
+      title="volver a presentación" style="height: 40px;text-align: center; margin-left: 48%;"></a>
+  </body>
+
+
+</body>
+</html>

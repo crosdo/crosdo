@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Aviones de Caza</title>
+    <link rel="stylesheet" href="presen.css">
+    <link rel="icon" type="image/JPG" sizes="32x32" href="icono favicon.jpg" >  
+</head>
+<body>
+    <p><pre>
+        
+    click para 
+    reproducir
+      audio</pre>
+    </p>
+    <img src="reproducir.png" alt="Reproducir Audio" width="50" onclick="toggleAudio()" title="click para reproducir audio" style="margin-left: 5% ;">
+    <audio id="miAudio" src="cancion fondo.mp3" loop style="float: left;"></audio><script>
+        function toggleAudio() {
+          const audio = document.getElementById('miAudio');
+          if (audio.paused) {
+            audio.play();
+          } else {
+            audio.pause();
+          }
+        }
+      </script>
+    <h1>UNIVERSIDAD NACIONAL DE LA AMAZONIA PERUANA</h1>
+     <img src="UNAP.png" alt="Logo UNAP" style="height: 150px;margin-left: 47%; margin-right: 45%;">
+    <h1>FACULTAD DE INGENIERIA DE SISTEMAS E INFORMATICA </h1>
+    <img src="Logo_FISI-removebg-preview.png" alt="Logo FISI" style="width: 120px;margin-right: 46%;margin-left: 46%;">
+<br>
+<h2 style="color: grey;text-align: center;
+text-decoration: underline double;
+text-shadow: -1px -1px 1px black;font-size: 200%; ">Los aviones caza</h2>
+<img src="Caza-removebg-preview.png" alt="caza" style="margin-left: 43%;height: 150px;">
+
+<br>
+<br><br>
+       <h2>Indice General</h2>
+       <ul>
+        <li><a href="Principal/Introducción.html">Introducción</a></li>
+        <li><a href="Principal/contenido1/Historia de los aviones de caza.html">Historia de los aviones de caza</a></li>
+        <li><a href="Principal/contenido2/Evolución de los aviones de caza.html">Evolución de los aviones de caza</a></li>
+        <li><a href="Principal/contenido3/Los aviones mas avanzados para combate de la actualidad.html">Los aviones más avanzados para combate</a></li>
+        <li><a href="Fuentes/fuentes.html">Fuentes</li></a>
+       </ul>
+     <p>
+      Alumno: Carlos Daniel Icomena Pizango <br>
+      Curso: Informatica II <br>
+      Ciclo: II 2024 <br>
+      Profesor:Luis Honorato Pita Abstengo
+     </p>
+</body>
+</html>

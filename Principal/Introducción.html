@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Introducciónt</title>
+    <link rel="stylesheet" href="intro.css">
+    <link rel="icon" type="image/JPG" sizes="32x32" href="icono favicon.jpg" >
+</head>
+<body> <p><pre style="color: white;margin-left: 4,5%;text-shadow: 1px 1px 1px black;text-align: justify;">
+        
+    click para 
+    reproducir
+      audio</pre>
+  </p>
+  <img src="reproducir.png" alt="Reproducir Audio" width="50" onclick="toggleAudio()" title="click para reproducir audio" style="margin-left: 3% ;">
+  <audio id="miAudio" src="cancion fondo.mp3" loop></audio><script>
+      function toggleAudio() {
+        const audio = document.getElementById('miAudio');
+        if (audio.paused) {
+          audio.play();
+        } else {
+          audio.pause();
+        }
+      }
+    </script>
+    <h1>Introducción del contenido del proyecto</h1>
+
+    <p>Bienvenidos al mundo de los aviones de caza, un recorrido fascinante por la historia, la evolución y las tecnologías más avanzadas en el desarrollo de estas impresionantes máquinas voladoras. Este proyecto está organizado en tres secciones principales, cada una enfocada en un aspecto único del tema:</p>
+    
+    <a href="contenido1/Historia de los aviones de caza.html"><h2>Historia de los aviones de caza</h2></a>
+    
+    <p>Adéntrese en la rica historia de los aviones de caza, desde la Primera Guerra Mundial hasta los modelos icónicos de la Segunda Guerra Mundial y los conflictos del siglo XX. En esta sección, descubrirás:
+        Modelos históricos como el Spitfire, el Messerschmitt Bf 109 y el P-51 Mustang.
+        La influencia de los aviones de caza en estrategias militares.
+        Fotografías y descripciones detalladas de las aeronaves más representativas de cada época.</p>
+
+   <a href="contenido2/Evolución de los aviones de caza.html"><h2>Evolución de los aviones de caza</h2></a>
+    
+    <p>En esta sección, exploraremos cómo los aviones de combate han evolucionado desde sus orígenes hasta la actualidad. Descubriremos:
+
+        Los primeros diseños utilizados en conflictos bélicos.
+        Las mejoras tecnológicas que permitieron a los aviones alcanzar mayor velocidad, maniobrabilidad y potencia de fuego.
+        Los avances en aerodinámica y materiales que hicieron posibles los cazas modernos.
+        Visita esta página para conocer más sobre los hitos clave en la evolución de estas máquinas voladoras.</p>
+    
+    <a href="contenido3/Los aviones mas avanzados para combate de la actualidad.html"><h2>Los aviones más avanzados para combate en la actualidad</h2></a>
+    
+    <p>La última sección nos lleva al presente, destacando las aeronaves más avanzadas y revolucionarias que dominan los cielos. Aquí aprenderás sobre:
+
+        Aviones de quinta generación como el F-22 Raptor, el F-35 Lightning II y el Sukhoi Su-57.
+        Tecnologías innovadoras como la furtividad (stealth), los sistemas de armamento inteligentes y las capacidades de control remoto.
+        Una visión de los aviones de combate del futuro.</p>
+<video src="videoplayback.webm" controls style="height: 200px; text-align: center;margin-left: 35%;margin-right: 50%;"></video>
+        <a href="../index.html"><img 
+          src="_Pngtree_blue_home_icon_or_button_15418766-removebg-preview.png" 
+          alt="icono volver" 
+          title="volver a presentación" style="height: 40px;text-align: center; margin-left: 50%;"></a>   
+</body>
+</html>

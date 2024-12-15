@@ -1,0 +1,6 @@
+h1{text-align: center;color: skyblue;text-shadow: -1px 1px 2px blue;text-decoration: underline double;}
+h2{text-align: center;text-shadow: -1px 1px 2px white;}
+p{text-align: justify;color: aqua; margin-left: 7.9%;}
+pre{text-align: justify;font-family: Verdana, Geneva, Tahoma, sans-serif;color: aqua;}
+img{margin-left: 30%;margin-right: 30%;}
+body{background-image: url(fondo.jpg)}

@@ -1,0 +1,10 @@
+h2{text-align: center;text-decoration: underline wavy skyblue;color: white;text-underline-offset: 20%;}
+h3{text-align: center;text-decoration: underline wavy skyblue;color: white;text-underline-offset: 20%;text-justify: auto;}
+p{text-align: justify;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;margin-left: 20%;margin-right: 20%;}
+table td:first-child{width: 30%;text-align: center;background-color: darkgreen;border: 5px solid lime}
+table td:last-child{width: 60%;background-color: green;border: 5px solid lime}
+table{margin: auto;border: 5px solid lime;width: 60%;border-collapse: collapse;background-color: green;}
+body{background-image: url(fondo.jpg)}
+pre{color: white;margin-left: 2.5%;text-shadow: 1px 1px 1px black}
+h1{color:white;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;text-decoration: underline dotted;text-underline-offset: 20%;text-align: center}
